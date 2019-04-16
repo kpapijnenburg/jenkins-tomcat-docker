@@ -1,0 +1,22 @@
+Started by user [8mha:////4O1wED7ka0yR3UqZbbiKmWRc9IgGuwha3SAC7wraNaR5AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace /var/jenkins_home/workspace/jenkins-test
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/kpapijnenburg/jenkins-test.git
+ > git init /var/jenkins_home/workspace/jenkins-test # timeout=10
+Fetching upstream changes from https://github.com/kpapijnenburg/jenkins-test.git
+ > git --version # timeout=10
+ > git fetch --tags --force --progress https://github.com/kpapijnenburg/jenkins-test.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/kpapijnenburg/jenkins-test.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/kpapijnenburg/jenkins-test.git # timeout=10
+Fetching upstream changes from https://github.com/kpapijnenburg/jenkins-test.git
+ > git fetch --tags --force --progress https://github.com/kpapijnenburg/jenkins-test.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 703a92ca1aecc5b8068c71b5b763ed8479a07f91 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 703a92ca1aecc5b8068c71b5b763ed8479a07f91
+Commit message: "Initial commit"
+First time build. Skipping changelog.
+Finished: SUCCESS

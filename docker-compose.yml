@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  jenkins:
+    build: ./jenkins
+    user: root
+    ports:
+      - 8081:8080
+    volumes:
+      - ./volumes/jenkins:/var/jenkins_home
+      - /var/run/docker.sock:/var/run/docker.sock
+
+  tomcat:
+    image: tomcat:8-alpine
+    ports:
+      - 8082:8080
+    volumes:
+      - ./volumes/tomcat/tomcat-users.xml:/usr/local/tomcat/conf/tomcat-users.xml
+      - ./volumes/tomcat/context.xml:/usr/local/tomcat/webapps/manager/META-INF/context.xml
+

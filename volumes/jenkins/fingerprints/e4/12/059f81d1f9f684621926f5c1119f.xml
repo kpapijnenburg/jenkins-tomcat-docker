@@ -1,0 +1,14 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-03-28 17:49:35.118 UTC</timestamp>
+  <md5sum>e412059f81d1f9f684621926f5c1119f</md5sum>
+  <fileName>Credential id=8a7a4059-4c33-4c65-99c4-1737d113b37a name=admin/****** (Tomcat)</fileName>
+  <usages/>
+  <facets>
+    <com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet plugin="credentials@2.1.18">
+      <timestamp>1553798287672</timestamp>
+      <itemFullName>jenkins-test</itemFullName>
+      <timestamp0>1553796066592</timestamp0>
+    </com.cloudbees.plugins.credentials.fingerprints.ItemCredentialsFingerprintFacet>
+  </facets>
+</fingerprint>

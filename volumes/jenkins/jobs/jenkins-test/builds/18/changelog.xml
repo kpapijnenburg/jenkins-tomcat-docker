@@ -1,0 +1,13 @@
+commit 83c846e2015ef619793ffa0c065430426d1e6db5
+tree 3d09e5327ea0dc9a2dfa4b0b856cd5ab7dfa4e6a
+parent 8b8063ffa81dcfbef9aa1e7eb10564b79c0dddeb
+author KpaPijnenburg <kpapijnenburg@gmail.com> 2019-03-28 18:46:30 +0100
+committer KpaPijnenburg <kpapijnenburg@gmail.com> 2019-03-28 18:46:30 +0100
+
+    Initial commit
+
+
+
+:100644 100644 a1c2a238a965f004ff76978ac1086aa6fe95caea 8044f1ee9f51518f5246910bfdd75e5dbd0a44d7 M	.gitignore
+:100644 100644 9c3cfef014f8dceed6d8b7e9764ea632e3f614d4 4bc812f2566f44fd0726a1021dea51c281f274a5 M	pom.xml
+:000000 100644 0000000000000000000000000000000000000000 e7dc8554840d7f6d3959fa790e5ea841d20c3583 A	src/main/webapp/WEB-INF/web.xml

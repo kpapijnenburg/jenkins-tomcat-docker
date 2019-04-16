@@ -1,0 +1,39 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-03-28 13:18:42.787 UTC</timestamp>
+  <original>
+    <name>creating-a-pipeline-in-blue-ocean/master</name>
+    <number>4</number>
+  </original>
+  <md5sum>7c9d8e1567b1077087aa70b39b938a4d</md5sum>
+  <fileName>Docker image sha256:7c9d8e1567b1077087aa70b39b938a4d817b8f0ab60f18526305cc00ece97712</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet plugin="docker-commons@1.13">
+      <timestamp>1553779122815</timestamp>
+      <imageId>sha256:7c9d8e1567b1077087aa70b39b938a4d817b8f0ab60f18526305cc00ece97712</imageId>
+      <usages>
+        <entry>
+          <string>creating-a-pipeline-in-blue-ocean/master</string>
+          <ranges>4,11</ranges>
+        </entry>
+      </usages>
+      <records class="java.util.concurrent.CopyOnWriteArrayList">
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>f218b06e5a10</host>
+          <containerId>f218b06e5a10aaf79a0ffb1adf5a6fc3365eaed6f505c7b4d22bd6e572400834</containerId>
+          <containerName>/happy_mayer</containerName>
+          <created>1553779121000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+        <org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+          <host>a13026873b73</host>
+          <containerId>a13026873b73316174b02137d78ce5c6ccae886f7fd406ca29154feba6d536e7</containerId>
+          <containerName>/hardcore_dirac</containerName>
+          <created>1553783205000</created>
+          <tags/>
+        </org.jenkinsci.plugins.docker.commons.fingerprint.ContainerRecord>
+      </records>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerRunFingerprintFacet>
+  </facets>
+</fingerprint>

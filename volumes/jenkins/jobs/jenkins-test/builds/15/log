@@ -1,0 +1,38 @@
+Started by user [8mha:////4O1wED7ka0yR3UqZbbiKmWRc9IgGuwha3SAC7wraNaR5AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace /var/jenkins_home/workspace/jenkins-test
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/kpapijnenburg/jenkins-test.git # timeout=10
+Fetching upstream changes from https://github.com/kpapijnenburg/jenkins-test.git
+ > git --version # timeout=10
+ > git fetch --tags --force --progress https://github.com/kpapijnenburg/jenkins-test.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 703a92ca1aecc5b8068c71b5b763ed8479a07f91 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 703a92ca1aecc5b8068c71b5b763ed8479a07f91
+Commit message: "Initial commit"
+ > git rev-list --no-walk 703a92ca1aecc5b8068c71b5b763ed8479a07f91 # timeout=10
+[jenkins-test] $ /bin/sh -xe /tmp/jenkins6838848518117125110.sh
++ mvn build
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< jenkins-test-app:jenkins-test-app >------------------
+[INFO] Building jenkins-test-app 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.099 s
+[INFO] Finished at: 2019-03-28T17:33:29Z
+[INFO] ------------------------------------------------------------------------
+[ERROR] Unknown lifecycle phase "build". You must specify a valid lifecycle phase or a goal in the format <plugin-prefix>:<goal> or <plugin-group-id>:<plugin-artifact-id>[:<plugin-version>]:<goal>. Available lifecycle phases are: validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy, pre-clean, clean, post-clean, pre-site, site, post-site, site-deploy. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/LifecyclePhaseNotFoundException
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
